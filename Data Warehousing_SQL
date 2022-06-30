@@ -129,6 +129,3 @@ ON pr.ProductName = dw_cis467.ProductName
 WHERE Discount != 0 AND dw_cis467.Discontinued = 0
 GROUP BY ProductName
 ORDER BY ProductSales DESC
-
-
-
