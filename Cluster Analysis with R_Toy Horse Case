@@ -63,7 +63,7 @@ tmp = clustTest(toClust)
 
 runClusts <- function(toClust,nClusts,print=TRUE,maxClusts=15,seed=12345,nstart=20,iter.max=100){
     if(length(nClusts)>4){
-        warning #(¡±Using only first 4 elements of n Clusts¡±)
+        warning #(Â¡Â±Using only first 4 elements of n ClustsÂ¡Â±)
     }
     kms=list(); ps=list();
     for(i in 1:length(nClusts)){
